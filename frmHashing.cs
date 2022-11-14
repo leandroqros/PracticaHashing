@@ -33,7 +33,7 @@ namespace PracticaHashing
             if (txtOriginalPassword.Text == txtHashedPassword.Text)
             {
                 lblResult.BackColor = Color.Green;
-                lblResult.Text = "Correcte";
+                lblResult.Text = "Correcte!";
             }
             else
             {
